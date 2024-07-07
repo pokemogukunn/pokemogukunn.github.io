@@ -18,28 +18,3 @@ Renderを使用する場合の手順
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 
-
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Pages Sample</title>
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/empty.css">
-    <link rel="stylesheet" href="css/grids-responsive-min.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/pure-min.css">
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            if (localStorage.getItem('firstLoad') === null) {
-                window.location.href = 'tangolevel/index.html';
-                localStorage.setItem('firstLoad', 'true');
-            }
-        });
-    </script>
-</head>
-<body>
-    <h1>Hello, GitHub Pages!</h1>
-    <p>This is a sample page.</p>
-</body>
-</html>
